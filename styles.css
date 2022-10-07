@@ -1,0 +1,230 @@
+body {
+    font-family:"roboto", sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu-code */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #1f2937;
+    padding: 5px 20%;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    list-style-type: none;
+    color:white;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+li {
+    font-family:"roboto", sans-serif;
+    font-size: 18px;
+}
+
+/* Banner-code */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    gap: 40px;
+    padding: 40px 20%;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    gap: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 400px;
+    height: auto;
+    opacity: 0.8;
+}
+
+h1 {
+    font-family:"roboto", sans-serif;
+    color: #F9FAF8;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h1,
+.fresh,
+.button {
+    align-self: flex-start;
+}
+
+.fresh {
+    font-family:"roboto", sans-serif;
+    font-size: 16px;
+    color: #E5E7EB
+}
+
+.button {
+    font-family:"roboto", sans-serif;
+    font-size: 17px;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    background-color: #3882F6;
+    padding: 8px 20px;
+}
+
+
+/* Body-code */
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 52px;
+    padding: 30px 20%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-style: "roboto", sans-serif;
+    font-size: 36px;
+    color:#1f2937;
+    margin: 40px 0;
+}
+
+.seasonal {
+    max-width: 200px;
+    background-color: white;
+
+}
+
+.tiles {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 200px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.information {
+    text-align: center;
+    font-style: "roboto", sans-serif;
+    font-size: 12px;
+    color: darkgrey;
+}
+
+/* Quote-code */
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 40%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: "roboto", sans-serif;
+    font-weight:lighter;
+    font-size: 28px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.author {
+    font-style: "roboto", sans-serif;
+    font-size: 20px;
+    color: #1F2937;
+    text-align: center;
+}
+
+/* Modal-code */
+
+.modal {
+    background: lightblue;
+    width: 480px;
+    border-radius: 20x;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+/* Footer-code */
+
+.footer {
+
+}
+
+/* Overlay-code (ripped from W3C) */
+
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+    opacity: 0.8;
+    display: block;
+    width: 300px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 50%;
+    border-radius: 4px;
+    background-color: darkgray;
+    overflow: hidden;
+    width: 412px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    font-family:"roboto", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
